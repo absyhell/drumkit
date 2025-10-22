@@ -1,0 +1,15 @@
+var x=document.querySelectorAll("button");
+x[0].addEventListener("click",function(){var audio = new Audio("images/sounds/crash.mp3");
+audio.play();});
+x[1].addEventListener("click",function(){var audio = new Audio("images/sounds/kick-bass.mp3");
+audio.play();});
+x[2].addEventListener("click",function(){var audio = new Audio("images/sounds/snare.mp3");
+audio.play();});
+x[3].addEventListener("click",function(){var audio = new Audio("images/sounds/tom-1.mp3");
+audio.play();});
+x[4].addEventListener("click",function(){var audio = new Audio("images/sounds/tom-2.mp3");
+audio.play();});
+x[5].addEventListener("click",function(){var audio = new Audio("images/sounds/tom-3.mp3");
+audio.play();});
+x[6].addEventListener("click",function(){var audio = new Audio("images/sounds/tom-4.mp3");
+audio.play();});
